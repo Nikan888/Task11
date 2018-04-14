@@ -22,9 +22,9 @@ namespace Task11
                 null
             };
             message = textTransformer.SetMessageToUpperCase(message);
-            foreach (var t in message)
+            foreach (var m in message)
             {
-                Console.WriteLine(t);
+                Console.WriteLine(m);
             }
             Console.ReadKey();
         }
